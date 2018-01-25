@@ -160,7 +160,7 @@ jQuery(function($) {
           $(event.currentTarget).find('.wsite-search-input').focus();
         })
         .find('.wsite-search-input')
-        .attr('placeholder', 'Type and press enter to search')
+        // .attr('placeholder', 'Type and press enter to search')
         .on('blur', function() {
           setTimeout(function() {
             toggleSearch('hide');
